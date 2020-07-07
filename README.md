@@ -4,7 +4,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start`
+### `json-server --watch db.json --port 3001`
+
+Runs the json-server db.json in the development mode.<br />
+Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
+
+The page will data Available in db.json file using this for RestFul Api service to load the data in http://localhost:3000.<br />
+ 
+
+### `npm run start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
