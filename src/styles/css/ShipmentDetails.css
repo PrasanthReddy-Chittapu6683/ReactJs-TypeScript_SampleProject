@@ -1,0 +1,57 @@
+.shipment-detail-info-container {
+    margin-bottom: 10px;
+}
+.table {
+    border: 1px solid #5fb8b2;
+}
+.small-table {
+    border: 1px solid #a9a2a2;
+    width: 100% !important;
+}
+.headerTd {
+    background-color: #5fb8b2;
+}
+.back {
+    color: #828282;
+    text-align: center;
+    font-size: 50px;
+}
+.geo {
+    color: #5fb8b2;
+}
+.edit {
+    color: #ffffff;
+    float: right;
+    font-size: 20px;
+}
+.detailsTd {
+    width: 50% !important;
+}
+
+ul {
+    border: 1px solid #ababab;
+    list-style-type: none;
+    padding: 10px;
+}
+ 
+
+li {
+    margin-bottom: 10px;
+}
+.shipment-detail-info-container__name {
+    margin: 0;
+    font-size: 13px;
+    color: #ababab;
+}
+
+.shipment-detail-info-container__value {
+    margin: 0;
+    margin-top: 3px;
+    font-size: 18px;
+    color: #101010;
+    font-weight: 600;
+}
+.shipmentName {
+    width: 25%;
+    height: 50px;
+}

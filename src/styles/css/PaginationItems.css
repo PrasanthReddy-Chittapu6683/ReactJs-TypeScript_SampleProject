@@ -1,0 +1,46 @@
+.pagination {
+    margin-top: 20px;
+}
+
+.imageAlign {
+    vertical-align: middle;
+}
+
+.pagetile-controls {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    width: 100%;
+}
+.pagetile-controls__button--active :hover,
+:hover:not(:active) {
+    transform: none;
+}
+.pagetile-controls__button {
+    background-color: white;
+
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    cursor: default;
+    margin: 0 0.25em;
+    border-radius: 50px;
+    padding: 0.5em 0.75em;
+    cursor: pointer;
+}
+
+.pagetile-controls__button :hover:not(:active) {
+    transition: transform 0.15s;
+    transform: translateY(-1px);
+}
+
+.pagetile-controls__button--active {
+    background-color: #5fb8b2;
+    color: white;
+}
+
+.pagetile-controls__button :first-child {
+    margin-left: 0;
+}
+
+.pagetile-controls__button :last-child {
+    margin-right: 0;
+}

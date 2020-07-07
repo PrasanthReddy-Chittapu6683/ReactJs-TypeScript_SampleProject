@@ -1,0 +1,34 @@
+.divcard {
+    width: 100%;
+}
+.shipment-card-container {
+    box-shadow: 0 1px 6px 0px rgba(44, 91, 105, 0.7);
+    display: flex;
+    border-radius: 0.5rem;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    transition: box-shadow 0.5s;
+    padding: 1rem 1rem 0.5rem;
+    color: #707070;
+}
+
+@media (max-width: 850px) {
+    .card-container {
+        margin-bottom: 20px;
+    }
+}
+.box-title {
+    font-size: 15px;
+    font-weight: bolder;
+}
+.viewDetails {
+    border-radius: 36px;
+    border: 1px solid #5fb8b2;
+    padding: 6px;
+    padding-bottom: 1px;
+    background-color: #5fb8b2;
+    float: right;
+}
+.viewDetailsLink {
+    color: white;
+}
